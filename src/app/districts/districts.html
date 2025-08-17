@@ -1,0 +1,8 @@
+<div class="row row-cols-1 row-cols-md-2 g-4" style="padding-top: 20px; padding-left: 20px; padding-right: 20px;">
+    @for(item of districts; track item.id){
+    <app-card [Name]="item.Name" [Description]="item.Description" [image]="item.image"></app-card>
+    }
+</div>
+<footer class="text-center" style="padding: 20px; background-color: #000000; color: white;">
+    <p>&copy; 2025 Eshani Anilkumar</p>
+</footer>
